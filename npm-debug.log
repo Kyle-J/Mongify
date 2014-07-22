@@ -1,0 +1,39 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.15
+3 info using node@v0.10.26
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/Users/Kyle/Google Drive/Sites/restify/node_modules/mongify',
+5 verbose install   [ 'sequelize' ] ]
+6 info preinstall Mongify@0.0.1
+7 warn package.json lingo@0.0.5 No repository field.
+8 verbose readDependencies using package.json deps
+9 verbose already installed skipping sequelize@1.7.9 /Users/Kyle/Google Drive/Sites/restify/node_modules/mongify
+10 silly resolved []
+11 info build /Users/Kyle/Google Drive/Sites/restify/node_modules/mongify
+12 verbose linkStuff [ false,
+12 verbose linkStuff   false,
+12 verbose linkStuff   false,
+12 verbose linkStuff   '/Users/Kyle/Google Drive/Sites/restify/node_modules' ]
+13 info linkStuff Mongify@0.0.1
+14 verbose linkBins Mongify@0.0.1
+15 verbose link bins [ { 'report-latency': './bin/report-latency' },
+15 verbose link bins   '/Users/Kyle/Google Drive/Sites/restify/node_modules/.bin',
+15 verbose link bins   false ]
+16 verbose linkMans Mongify@0.0.1
+17 verbose rebuildBundles Mongify@0.0.1
+18 verbose rebuildBundles [ '.bin', 'async', 'lingo', 'mongoose', 'sequelize' ]
+19 verbose rebuild bundle /Users/Kyle/Google Drive/Sites/restify/node_modules/mongify/node_modules/async
+20 error Error: ENOENT, chmod '/Users/Kyle/Google Drive/Sites/restify/node_modules/mongify/bin/report-latency'
+21 error If you need help, you may report this *entire* log,
+21 error including the npm and node versions, at:
+21 error     <http://github.com/npm/npm/issues>
+22 error System Darwin 13.1.0
+23 error command "node" "/usr/local/bin/npm" "install"
+24 error cwd /Users/Kyle/Google Drive/Sites/restify/node_modules/mongify
+25 error node -v v0.10.26
+26 error npm -v 1.4.15
+27 error path /Users/Kyle/Google Drive/Sites/restify/node_modules/mongify/bin/report-latency
+28 error code ENOENT
+29 error errno 34
+30 verbose exit [ 34, true ]

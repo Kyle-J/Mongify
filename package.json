@@ -1,0 +1,40 @@
+{
+    "author": {
+        "name": "Kyle Waters",
+        "email": "kyle@theorganicagency.com"
+    },
+    "contributors": [
+        {
+            "name": "Ian Barker",
+            "email": "ian@theorganicagency.com"
+        }
+    ],
+    "name": "Mongify",
+    "homepage": "http://www.Mongify.com",
+    "description": "Mongify API Framework",
+    "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "https://bitbucket.org/kwaters/mongify"
+    },
+    "main": "index",
+    "directories": {
+        "lib": "./lib"
+    },
+    "bin": {
+        "report-latency": "./bin/report-latency"
+    },
+    "engines": {
+        "node": "0.10.26"
+    },
+    "dependencies": {
+        "sequelize": "1.7.9"
+    },
+    "readme" : "",
+    "readmeFilename": "README.md",
+    "bugs": {
+        "url": "https://www.Mongify.com"
+    },
+    "_id": "mongify@0.0.1",
+    "_from": "theorganicagency@"
+}
