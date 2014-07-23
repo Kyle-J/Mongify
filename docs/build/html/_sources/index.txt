@@ -25,8 +25,8 @@ External Reading
 
 *Dependencies:*
 
-Restify Project: http://mcavage.me/node-restify/
-Mongoose ODM: http://mongoosejs.com/
+- Restify Project: http://mcavage.me/node-restify/
+- Mongoose ODM: http://mongoosejs.com/
 
 *Schema research and recommendations for best practise REST API implementation.*
 
