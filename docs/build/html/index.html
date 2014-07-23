@@ -43,6 +43,29 @@
             
   <div class="section" id="welcome-to-mongify-s-documentation">
 <h1>Welcome to Mongify&#8217;s documentation!<a class="headerlink" href="#welcome-to-mongify-s-documentation" title="Permalink to this headline">¶</a></h1>
+<p>Mongify is a Rapid Rest API development module for Node JS.</p>
+<p>Mongify augments Restify Node servers, adding a state-full data layer and best-practise REST schema.</p>
+<p>Mongify uses Mongo DB (Mongoose ODM) as it&#8217;s data layer.</p>
+</div>
+<div class="section" id="how-it-works">
+<h1>How It Works<a class="headerlink" href="#how-it-works" title="Permalink to this headline">¶</a></h1>
+<p>Mongify is based on self-defining routes. All you need to do is define data models for Mongoose, create instances of
+Mongoose and Restify, and finally attach Mongify to the Restify server, injecting the Mongoose object as a dependency.</p>
+<p>You may also optionally override resource definitions to handel custom data logic such as building custom DB queries.</p>
+</div>
+<div class="section" id="external-reading">
+<h1>External Reading<a class="headerlink" href="#external-reading" title="Permalink to this headline">¶</a></h1>
+<p><em>Dependencies:</em></p>
+<p>Restify Project: <a class="reference external" href="http://mcavage.me/node-restify/">http://mcavage.me/node-restify/</a>
+Mongoose ODM: <a class="reference external" href="http://mongoosejs.com/">http://mongoosejs.com/</a></p>
+<p><em>Schema research and recommendations for best practise REST API implementation.</em></p>
+<ul class="simple">
+<li><a class="reference external" href="http://www.youtube.com/watch?v=hdSrT4yjS1g">http://www.youtube.com/watch?v=hdSrT4yjS1g</a></li>
+<li><a class="reference external" href="http://www.youtube.com/watch?v=ITmcAGvfcJI">http://www.youtube.com/watch?v=ITmcAGvfcJI</a></li>
+<li><a class="reference external" href="http://www.youtube.com/watch?v=HW9wWZHWhnI">http://www.youtube.com/watch?v=HW9wWZHWhnI</a></li>
+<li><a class="reference external" href="http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api/">http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api/</a></li>
+<li><a class="reference external" href="http://www.restapitutorial.com/">http://www.restapitutorial.com/</a></li>
+</ul>
 <p>Contents:</p>
 <div class="toctree-wrapper compound">
 <ul class="simple">
@@ -67,6 +90,8 @@
   <h3><a href="#">Table Of Contents</a></h3>
   <ul>
 <li><a class="reference internal" href="#">Welcome to Mongify&#8217;s documentation!</a></li>
+<li><a class="reference internal" href="#how-it-works">How It Works</a></li>
+<li><a class="reference internal" href="#external-reading">External Reading</a></li>
 <li><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
 </ul>
 
