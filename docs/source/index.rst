@@ -51,6 +51,6 @@ Indices and tables
 * :ref:`modindex`
 * :ref:`search`
 
-`class TestClass {
+<code>class TestClass {
 
-}`
+}</code>
