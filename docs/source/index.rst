@@ -51,3 +51,6 @@ Indices and tables
 * :ref:`modindex`
 * :ref:`search`
 
+`class TestClass {
+
+}`
